@@ -1,0 +1,55 @@
+﻿<Page x:Class="BCR_Reader_Pro.BcrView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BCR_Reader_Pro"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="BcrView" Background="White">
+
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.3*"/>
+            <RowDefinition Height="0.4*"/>
+        </Grid.RowDefinitions>
+        
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <RadioButton Margin="0,0,10,0" Content="TCP/IP" IsChecked="{Binding IsTcpIpMode, Mode=TwoWay}" GroupName="bcrType" />
+            <RadioButton Margin="0,0,10,0" Content="COMPORT" IsChecked="{Binding IsCommMode, Mode=TwoWay}" GroupName="bcrType"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Margin="0,0,0,0" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0">
+                <Label Content ="COM NAME"/>
+                <TextBox Name="txtComm" Width="100" IsEnabled="{Binding IsTxtCommEnable}" Text="{Binding TxtComm }" />
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0">
+                <Label Content ="IP"/>
+                <TextBox Name="txtIp" Width="100" IsEnabled="{Binding IsTxtIpEnable}" Text="{Binding TxtIp}" />
+            </StackPanel>
+
+            <StackPanel Orientation="Vertical" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10,0">
+                <Label Content ="PORT"/>
+                <TextBox Name="txtPort" Width="100" IsEnabled="{Binding IsTxtPortEnable}" Text="{Binding TxtPort}"/>
+            </StackPanel>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="2"  Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Width="120" Height="50" Content="BCR Connect" Margin="5" Command="{Binding ConnectCommand}" />
+            <Button Width="120" Height="50" Content="BCR Reading" Margin="5" Command="{Binding ReadCommand}"/>
+        </StackPanel>
+
+        <StackPanel Grid.RowSpan="3" Grid.Column="1">
+            <ListBox  Name="listBcrLog" FontSize="14" ItemsSource="{Binding RunInspect.ReadingLogs}" >
+            </ListBox>
+        </StackPanel>
+    </Grid>
+</Page>

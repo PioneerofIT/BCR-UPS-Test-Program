@@ -1,0 +1,20 @@
+﻿BCR Reader Pro
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Study\C#_WPF\BCR Reader Pro\BCR Reader Pro\obj\Release\net8.0-windows\
+BCR_Reader_Pro
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
+D:\Study\C#_WPF\BCR Reader Pro\BCR Reader Pro\App.xaml
+31363931900
+
+121238292458
+2041650929281
+BcrView.xaml;MainWindow.xaml;UpsView.xaml;
+
+False
+
