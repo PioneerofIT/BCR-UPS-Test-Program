@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -23,6 +24,30 @@ public enum ModbusFunc : byte
     WriteMultipleCoils = 0x0F, // 여러 Coil 쓰기
     WriteMultipleRegisters = 0x10 // 여러 Register 쓰기
 }
+public enum UpsQueryType
+{
+    /// <summary>UPS 상태 비트 레지스터</summary>
+    BitRegister = 0,
+
+    /// <summary>UPS 남은 동작 시간 (분)</summary>
+    RemainingTime = 1,
+
+    /// <summary>UPS 배터리 충전 상태 (%)</summary>
+    ChargeState = 2,
+
+    /// <summary>UPS 배터리 전압 (V)</summary>
+    BatteryVoltage = 3,
+
+    /// <summary>UPS 내부 온도 (℃)</summary>
+    InternalTemperature = 4,
+
+    /// <summary>UPS 출력 전압 (V)</summary>
+    OutputVoltage = 5,
+
+    /// <summary>UPS 입력 전압 (V)</summary>
+    InputVoltage = 6
+}
+
 
 
 namespace BCR_Reader_Pro.Model
@@ -89,7 +114,18 @@ namespace BCR_Reader_Pro.Model
             pdu.Build(pduBytes[0], pduBytes.Skip(1).ToArray());
             return pdu;
         }
-       
+        public byte[] BuildReadInputRegisters(ushort startAddr, ushort count)
+        {
+            return new byte[]
+            {
+            0x04, // Function Code: Read Input Registers
+            (byte)(startAddr >> 8),
+            (byte)(startAddr & 0xFF),
+            (byte)(count >> 8),
+            (byte)(count & 0xFF)
+            };
+        }
+
     }
     public abstract class ModbusAduBase
     {
@@ -98,6 +134,7 @@ namespace BCR_Reader_Pro.Model
         public abstract byte[] ExtractPduBytes(byte[] frame);
         public abstract bool VerifyFrame(byte[] frame);
         public abstract byte[] BuildPacket(byte unitId, ModBusPdu pdu);
+        public abstract byte[] BuildReadInputRegisters(byte unitId, ushort startAddr, ushort count);
 
         protected ModBusPdu _pdu = new ModBusPdu();
     }
@@ -159,9 +196,27 @@ namespace BCR_Reader_Pro.Model
             // PDU는 MBAP 헤더 7바이트 이후부터 시작
             return frame.Skip(7).ToArray();
         }
+        public override byte[] BuildReadInputRegisters(byte unitId, ushort startAddr, ushort count)
+        {
+            var pduBytes = _pdu.BuildReadInputRegisters(startAddr, count);
+
+            ushort length = (ushort)(pduBytes.Length + 1); // +UnitID
+            ushort tid = ++_transactionIdCounter;
+
+            var frame = new byte[7 + pduBytes.Length];
+            frame[0] = (byte)(tid >> 8);
+            frame[1] = (byte)(tid & 0xFF);
+            frame[2] = 0x00; frame[3] = 0x00;        // Protocol ID
+            frame[4] = (byte)(length >> 8);
+            frame[5] = (byte)(length & 0xFF);
+            frame[6] = unitId;
+
+            Array.Copy(pduBytes, 0, frame, 7, pduBytes.Length);
+            return frame;
+        }
+
+
     }
-
-
 
     public abstract class UpsPacketBase
     {
@@ -195,6 +250,26 @@ namespace BCR_Reader_Pro.Model
             try { _stream?.Close(); } catch { }
             try { _client?.Close(); } catch { }
         }
+        public byte[] BuildReadCommand(UpsQueryType query)
+        {
+            ushort startAddr = 0;
+            ushort count = 0;
+
+            switch (query)
+            {
+                case UpsQueryType.BitRegister: startAddr = 0x0000; count = 0x0005; break;
+                case UpsQueryType.RemainingTime: startAddr = 0x0080; count = 0x0002; break;
+                case UpsQueryType.ChargeState: startAddr = 0x0082; count = 0x0001; break;
+                case UpsQueryType.BatteryVoltage: startAddr = 0x0083; count = 0x0002; break;
+                case UpsQueryType.InternalTemperature: startAddr = 0x0087; count = 0x0001; break;
+                case UpsQueryType.OutputVoltage: startAddr = 0x008E; count = 0x0002; break;
+                case UpsQueryType.InputVoltage: startAddr = 0x0097; count = 0x0002; break;
+                default: throw new ArgumentOutOfRangeException(nameof(query));
+            }
+
+            // 🔹 Modbus ADU로 프레임 생성 후 그대로 반환
+            return _adu.BuildReadInputRegisters(0x01, startAddr, count);
+        }
         protected async Task<byte[]?> SendAndReceiveAsync(byte[] request, int rxBufSize = 256)
         {
             if (_stream == null) throw new InvalidOperationException("미연결 상태");
@@ -222,8 +297,6 @@ namespace BCR_Reader_Pro.Model
 
 
     }
-
-
 
 
 }

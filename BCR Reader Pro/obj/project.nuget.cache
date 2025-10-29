@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zMGliuiFiFw=",
+  "dgSpecHash": "kgogb2I4LBg=",
   "success": true,
-  "projectFilePath": "D:\\Study\\C#_WPF\\BCR Reader Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
+  "projectFilePath": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GHLEE\\.nuget\\packages\\commonservicelocator\\2.0.2\\commonservicelocator.2.0.2.nupkg.sha512",
     "C:\\Users\\GHLEE\\.nuget\\packages\\libuv\\1.9.1\\libuv.1.9.1.nupkg.sha512",
@@ -140,9 +140,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "프로젝트 대상 프레임워크 'net8.0-windows7.0' 대신 '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1'을(를) 사용하여 패키지 'MvvmLightLibs 5.4.1.1'을(를) 복원했습니다. 이 패키지는 프로젝트와 완벽하게 호환되지 않을 수 있습니다.",
-      "projectPath": "D:\\Study\\C#_WPF\\BCR Reader Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
+      "projectPath": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Study\\C#_WPF\\BCR Reader Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
+      "filePath": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
       "libraryId": "MvvmLightLibs",
       "targetGraphs": [
         "net8.0-windows7.0"

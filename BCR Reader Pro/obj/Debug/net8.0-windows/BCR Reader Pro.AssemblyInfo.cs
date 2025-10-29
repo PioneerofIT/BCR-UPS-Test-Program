@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BCR Reader Pro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e264ab96ab005b867f90c819e985336bd6b7fd5d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BCR Reader Pro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BCR Reader Pro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
