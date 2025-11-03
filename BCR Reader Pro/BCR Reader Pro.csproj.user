@@ -7,16 +7,17 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\AutoRunView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\BcrView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\IOTestView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\UpsView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <Page Update="View\MainWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
   </ItemGroup>
 </Project>

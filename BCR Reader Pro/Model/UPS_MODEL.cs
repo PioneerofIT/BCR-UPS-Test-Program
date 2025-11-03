@@ -272,13 +272,19 @@ namespace BCR_Reader_Pro.Model
         }
         protected async Task<byte[]?> SendAndReceiveAsync(byte[] request, int rxBufSize = 256)
         {
-            if (_stream == null) throw new InvalidOperationException("미연결 상태");
+            if (_stream == null) 
+                throw new InvalidOperationException("미연결 상태");
 
             await _stream.WriteAsync(request, 0, request.Length);
 
             var buf = new byte[rxBufSize];
             int read = await _stream.ReadAsync(buf, 0, buf.Length);
-            if (read <= 0) return null;
+
+            if (read <= 0)
+            {
+                return null;
+            }
+                
 
             return buf.Take(read).ToArray();
         }

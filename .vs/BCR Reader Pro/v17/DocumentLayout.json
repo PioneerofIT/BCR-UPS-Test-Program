@@ -3,40 +3,76 @@
   "WorkspaceRootPath": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\model\\ups_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\model\\ups_model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\model\\inspectproc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\model\\inspectproc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\service\\upmrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\service\\upmrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\service\\basethread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\service\\basethread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\service\\commthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\service\\commthread.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\viewmodel\\autorunviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\viewmodel\\autorunviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\bcr reader pro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\bcr reader pro.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\autorunview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\view\\autorunview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\autorunview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\view\\autorunview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\service\\sequencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\service\\sequencemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\model\\upmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\model\\upmmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\model\\ioitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\model\\ioitemmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\viewmodel\\iotestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\viewmodel\\iotestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\app.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\view\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\service\\commrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\service\\commrun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\service\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\service\\logmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\iotestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\view\\iotestview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\viewmodel\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\viewmodel\\upsmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\viewmodel\\upsmodelview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\iotestview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\view\\iotestview.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\upsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\view\\upsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\controller\\uiodefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|solutionrelative:bcr reader pro\\controller\\uiodefine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{801CD1E3-B6C4-468D-82F3-253F39F8D68A}|BCR Reader Pro\\BCR Reader Pro.csproj|d:\\study\\c#_wpf\\bcr_reader_pro\\bcr reader pro\\view\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -50,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,124 +98,246 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CommThread.cs",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\CommThread.cs",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\CommThread.cs",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\CommThread.cs",
-              "RelativeToolTip": "BCR Reader Pro\\Service\\CommThread.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "AutoRunViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\AutoRunViewModel.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\ViewModel\\AutoRunViewModel.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\AutoRunViewModel.cs",
+              "RelativeToolTip": "BCR Reader Pro\\ViewModel\\AutoRunViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:50:32.697Z",
+              "WhenOpened": "2025-11-03T05:02:03.087Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BaseThread.cs",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\BaseThread.cs",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\BaseThread.cs",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\BaseThread.cs",
-              "RelativeToolTip": "BCR Reader Pro\\Service\\BaseThread.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "LogManager.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\LogManager.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\LogManager.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\LogManager.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Service\\LogManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:50:14.093Z",
+              "WhenOpened": "2025-11-03T06:29:32.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "uPmRun.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\uPmRun.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\uPmRun.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\uPmRun.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Service\\uPmRun.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:19:11.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AutoRunView.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\AutoRunView.xaml.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\AutoRunView.xaml.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\AutoRunView.xaml.cs",
+              "RelativeToolTip": "BCR Reader Pro\\View\\AutoRunView.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T05:01:57.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BCR Reader Pro\\View\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAnwBkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T05:02:24.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CommRun.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\CommRun.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\CommRun.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\CommRun.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Service\\CommRun.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T06:29:23.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\ViewModel\\MainViewModel.cs",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\MainViewModel.cs",
-              "RelativeToolTip": "BCR Reader Pro\\ViewModel\\MainViewModel.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAowBEAAAAsAAAAAAAAAA==",
+              "Title": "SequenceManager.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\SequenceManager.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\SequenceManager.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\SequenceManager.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Service\\SequenceManager.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T05:06:40.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Inspectproc.cs",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\Inspectproc.cs",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\Model\\Inspectproc.cs",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\Inspectproc.cs",
-              "RelativeToolTip": "BCR Reader Pro\\Model\\Inspectproc.cs",
-              "ViewState": "AgIAAHQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-24T05:06:31.525Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BCR Reader Pro.csproj",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\BCR Reader Pro.csproj",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\BCR Reader Pro.csproj",
-              "RelativeToolTip": "BCR Reader Pro\\BCR Reader Pro.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-10-24T05:05:08.847Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UpsModelView.cs",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\UpsModelView.cs",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\ViewModel\\UpsModelView.cs",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\UpsModelView.cs",
-              "RelativeToolTip": "BCR Reader Pro\\ViewModel\\UpsModelView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-14T00:48:04.965Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UPS_MODEL.cs",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\UPS_MODEL.cs",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\Model\\UPS_MODEL.cs",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\UPS_MODEL.cs",
-              "RelativeToolTip": "BCR Reader Pro\\Model\\UPS_MODEL.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAowGgAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-13T07:54:48.656Z",
+              "WhenOpened": "2025-11-03T07:07:48.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\MainWindow.xaml",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\MainWindow.xaml",
-              "RelativeToolTip": "BCR Reader Pro\\View\\MainWindow.xaml",
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\App.xaml.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\App.xaml.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\App.xaml.cs",
+              "RelativeToolTip": "BCR Reader Pro\\App.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T07:44:44.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IOItemModel.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\IOItemModel.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Model\\IOItemModel.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\IOItemModel.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Model\\IOItemModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAIwBoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T04:32:28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutoRunView.xaml",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\AutoRunView.xaml",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\AutoRunView.xaml",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\AutoRunView.xaml",
+              "RelativeToolTip": "BCR Reader Pro\\View\\AutoRunView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T07:30:58.88Z"
+              "WhenOpened": "2025-11-03T05:01:55.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseThread.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\BaseThread.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Service\\BaseThread.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Service\\BaseThread.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Service\\BaseThread.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAmwEMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:19:09.148Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "IOTestViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\IOTestViewModel.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\ViewModel\\IOTestViewModel.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\IOTestViewModel.cs",
+              "RelativeToolTip": "BCR Reader Pro\\ViewModel\\IOTestViewModel.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAIwF4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:32:43.155Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "uPmModel.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\uPmModel.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\Model\\uPmModel.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\Model\\uPmModel.cs",
+              "RelativeToolTip": "BCR Reader Pro\\Model\\uPmModel.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIAxwCkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T02:22:34.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IOTestView.xaml",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\IOTestView.xaml",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\IOTestView.xaml",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\IOTestView.xaml",
+              "RelativeToolTip": "BCR Reader Pro\\View\\IOTestView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-03T02:32:23.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "App.xaml",
               "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\App.xaml",
               "RelativeDocumentMoniker": "BCR Reader Pro\\App.xaml",
               "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\App.xaml",
               "RelativeToolTip": "BCR Reader Pro\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T07:30:53.536Z"
+              "WhenOpened": "2025-11-03T07:44:42.626Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpsView.xaml",
-              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\UpsView.xaml",
-              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\UpsView.xaml",
-              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\UpsView.xaml",
-              "RelativeToolTip": "BCR Reader Pro\\View\\UpsView.xaml",
+              "DocumentIndex": 15,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\ViewModel\\MainViewModel.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\ViewModel\\MainViewModel.cs",
+              "RelativeToolTip": "BCR Reader Pro\\ViewModel\\MainViewModel.cs",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T05:01:37.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "uIoDefine.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\CONTROLLER\\uIoDefine.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\CONTROLLER\\uIoDefine.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\CONTROLLER\\uIoDefine.cs",
+              "RelativeToolTip": "BCR Reader Pro\\CONTROLLER\\uIoDefine.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAiwDQAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T05:07:05.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IOTestView.xaml.cs",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\IOTestView.xaml.cs",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\IOTestView.xaml.cs",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\IOTestView.xaml.cs",
+              "RelativeToolTip": "BCR Reader Pro\\View\\IOTestView.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-03T05:00:53.741Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BCR Reader Pro\\View\\MainWindow.xaml",
+              "ToolTip": "D:\\Study\\C#_WPF\\BCR_Reader_Pro\\BCR Reader Pro\\View\\MainWindow.xaml",
+              "RelativeToolTip": "BCR Reader Pro\\View\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-10-13T06:59:15.599Z"
+              "WhenOpened": "2025-11-03T05:02:22.188Z",
+              "EditorCaption": ""
             }
           ]
         }

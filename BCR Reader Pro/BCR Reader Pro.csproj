@@ -10,8 +10,59 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="COMMON\BASE_COMPONENT\**" />
+    <Compile Remove="COMMON\MigrationToolKit\**" />
+    <Compile Remove="COMMON\RECIPE_PARAM\**" />
+    <Compile Remove="CONTROLLER\SimulatorCtrl\**" />
+    <EmbeddedResource Remove="COMMON\BASE_COMPONENT\**" />
+    <EmbeddedResource Remove="COMMON\MigrationToolKit\**" />
+    <EmbeddedResource Remove="COMMON\RECIPE_PARAM\**" />
+    <EmbeddedResource Remove="CONTROLLER\SimulatorCtrl\**" />
+    <None Remove="COMMON\BASE_COMPONENT\**" />
+    <None Remove="COMMON\MigrationToolKit\**" />
+    <None Remove="COMMON\RECIPE_PARAM\**" />
+    <None Remove="CONTROLLER\SimulatorCtrl\**" />
+    <Page Remove="COMMON\BASE_COMPONENT\**" />
+    <Page Remove="COMMON\MigrationToolKit\**" />
+    <Page Remove="COMMON\RECIPE_PARAM\**" />
+    <Page Remove="CONTROLLER\SimulatorCtrl\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="COMMON\CVS_SYS_OPTION.cs" />
+    <Compile Remove="COMMON\CVS_THREAD.cs" />
+    <Compile Remove="COMMON\CVS_VIEW_MANAGER.cs" />
+    <Compile Remove="COMMON\VsLogLib.cs" />
+    <Compile Remove="COMMON\VS_ALARM_MANAGER.cs" />
+    <Compile Remove="COMMON\VS_DB.cs" />
+    <Compile Remove="COMMON\VS_DEFINE.cs" />
+    <Compile Remove="COMMON\VS_GLOBAL_DATA.cs" />
+    <Compile Remove="COMMON\VS_LANGUAGE_MANAGER.cs" />
+    <Compile Remove="COMMON\VS_RECIPE.cs" />
+    <Compile Remove="COMMON\VS_SINGLETON.cs" />
+    <Compile Remove="COMMON\VS_TIMER.cs" />
+    <Compile Remove="COMMON\VS_UTILS.cs" />
+    <Compile Remove="CONTROLLER\CVS_READ_AI_THREAD.cs" />
+    <Compile Remove="MainWindow.xaml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
     <PackageReference Include="System.IO.Ports" Version="9.0.9" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="View\MainWindow.xaml">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Page>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="COMMON\" />
+  </ItemGroup>
+
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="xcopy /Y /D &quot;D:\Study\C#_WPF\BCR_Reader_Pro\BCR Reader Pro\*.dll&quot; &quot;$(TargetDir)&quot;" />
+  </Target>
 
 </Project>

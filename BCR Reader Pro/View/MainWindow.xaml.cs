@@ -10,6 +10,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using BCR_Reader_Pro.View;
+using BCR_Reader_Pro.ViewModel;
 
 namespace BCR_Reader_Pro
 {
@@ -23,9 +25,12 @@ namespace BCR_Reader_Pro
         public MainWindow()
         {
             InitializeComponent();
-            _pages = new List<Page> {
-            new BcrView(),       // Page2
-             new UpsView()      // Page1
+            _pages = new List<Page>
+            {
+                new AutoRunView(),
+                new BcrView(),       // Page1
+                new UpsView(),
+                new IOTestView()// Page2
             // 필요 시 계속 추가
             };
 
