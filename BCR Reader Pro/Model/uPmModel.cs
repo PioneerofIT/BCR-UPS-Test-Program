@@ -91,6 +91,7 @@ namespace BCR_Reader_Pro.Model
                 return true;
             else 
                 return false;
+            
         }
 
         public void VacPumpPowerOn(bool open)

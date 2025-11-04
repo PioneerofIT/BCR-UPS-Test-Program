@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="12.79" multi-file="no" uid="simp75c387989edd4b05b41b3cc84a0a5b88">
+  <meta>
+    <name>TEST KIT</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="2">
+    <entity-names>
+      <counter>
+        <item-type type-id="ui-window" type="Window" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="Button" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-label" type="Label" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-splitter" type="Splitter" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-arrowed-arc" type="Arrowed Arc" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-gear" type="Gear" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-scroll-bar" type="Scroll Bar" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="formatted-text" type="Formatted Text" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="state-invariant" type="State Invariant" />
+        <value>1</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>2</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>422</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-window" type="Window" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-button" type="Button" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-label" type="Label" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-splitter" type="Splitter" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-arrowed-arc" type="Arrowed Arc" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="universal-connector" type="Universal Connector" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-gear" type="Gear" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="drawing-shape" type="Simple Shape" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="element-detail" type="Element Detail" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment-connector" type="Comment Connector" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="ui-scroll-bar" type="Scroll Bar" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="formatted-text" type="Formatted Text" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="comment" type="Comment" />
+        <value>4</value>
+      </counter>
+      <counter>
+        <item-type type-id="diagram-description" type="Diagram Description" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="state-invariant" type="State Invariant" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="lifeline" type="Lifeline" />
+        <value>6</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.Wireframing.UserInterfaceDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlSequenceDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-ef6ff462e27e48eba4232e485a129d95" name="" task-id-sequence="0">
+    <working-schedule uid="ws-e25b9a00e93c4d34924977ea6239e660" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-0bb871c1898d4bdebeb41995bfd97034" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-54271cdd891444bf9787ac40e3e9e726" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items>
+    <item id="fb1aeb621cb04c72982c276bfe7a2453" cid="ED001" type="element-detail" name="ElementDetail1" style-class="" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:20:37">
+      <documentation>
+        <text>
+          <default>
+            <style font-name="Segoe UI" font-size="11.25">
+              <text>
+                <solid-brush color="#FF000000" />
+              </text>
+            </style>
+          </default>
+          <styles />
+          <content>
+            <paragraph>
+              <style numbering-type="None">
+                <numbering name="" multi-level="false">
+                  <numbering-level type="None" level="0" format="{0}." />
+                </numbering>
+              </style>
+              <p>
+                <t>ㄴㅇㅇㅁㅁㄴㄴㅇㅇ
+</t>
+              </p>
+            </paragraph>
+          </content>
+        </text>
+      </documentation>
+      <style style-name="Custom Style" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+        <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+        <background type="forward-diagonal" colors="#FFFFFFFF,#FFEBEBEB" />
+        <border color="#FF000000" width="1" dash-style="Solid" />
+        <label-connector color="#80000000" width="1" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+            <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+            <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+            <background type="vertical-linear" colors="#FF1E90FF,#FF87CEFA" />
+            <border color="#FF00008B" width="1" dash-style="Solid" />
+            <label-connector color="#FF000000" width="1" dash-style="Solid" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <element-detail include-defaults="false" model-ref="d1e12c6fe515486abd03fee4fb488baf" />
+    </item>
+    <item id="diab0fb33ef6b84f8aa1bbb2f95b4db2077084" cid="CN001" type="comment-connector" name="" style-class="" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:20:37" to="d1e12c6fe515486abd03fee4fb488baf" />
+  </items>
+  <models>
+    <model id="pedc56235d63c406a8e93bdecdd050a7f_212988899" name="UI Design" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/03/2025 13:02:07</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="user-interface" id="pc85aed2156804827a47d1dfef69662a4_418878039" name="TEST IO VIEW" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="-90,94" zoom="0.9">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/03/2025 13:02:07</creation-date>
+          <change-date>11/03/2025 13:26:06</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="b181df929207468f89fe6dd267523262" cid="WND001" type="ui-window" name="IO TEST VIEW" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:02:21">
+            <owned-items>
+              <owned-item ref="3656c876d9374087b6500e592785e6f9" />
+              <owned-item ref="02545529a8684132bb85f42743c63a61" />
+              <owned-item ref="a7770c41cc6c4040a4def78c7c5b47fb" />
+              <owned-item ref="di1bb8ed76024c4e1c86ea49eb540fdcd92684" />
+              <owned-item ref="di29bbfb4984804646a9622ba72415625c2684" />
+              <owned-item ref="di116e5c7865d84ebe855b0d466523542c3728" />
+              <owned-item ref="di04fecc7a41e34954aad68751ab389fb33728" />
+              <owned-item ref="di7b0bd0116efd4583afba0ef8a86c3fa37968" />
+              <owned-item ref="di10df81666ada4acaa04ed48910c4c0c07968" />
+            </owned-items>
+            <window show-min-button="true" show-max-button="true" show-close-button="true" show-size-grip="false" />
+          </item>
+          <item id="3656c876d9374087b6500e592785e6f9" cid="BTN001" type="ui-button" name="X000" style-class="Flat Light Green" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:03:05">
+            <style class="Flat Light Green" />
+            <button />
+          </item>
+          <item id="02545529a8684132bb85f42743c63a61" cid="LBL001" type="ui-label" name="Name" style-class="" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:04:20" />
+          <item id="a7770c41cc6c4040a4def78c7c5b47fb" cid="SPT001" type="ui-splitter" name="Splitter1" style-class="" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:04:44" />
+          <item id="di1bb8ed76024c4e1c86ea49eb540fdcd92684" cid="BTN002" type="ui-button" name="Y000" style-class="Flat Green" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:03:05">
+            <style class="Flat Green" />
+            <button />
+          </item>
+          <item id="di29bbfb4984804646a9622ba72415625c2684" cid="LBL002" type="ui-label" name="Name" style-class="" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:04:20" />
+          <item id="ee37fada4a944b93979d1b54dc2613bb" cid="ELEM002" type="universal-connector" name="" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:07:48" from="di1bb8ed76024c4e1c86ea49eb540fdcd92684">
+            <connector end-cap="arrow" />
+          </item>
+          <item id="d1e12c6fe515486abd03fee4fb488baf" cid="ELEM004" type="drawing-shape" name="SimpleShape2" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:20:22">
+            <style style-name="Custom Style" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="solid" colors="#FFEB6662,#FFF5A19B" />
+              <border color="#FFCE4F4B" width="2" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;11.25;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;9.75;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF2A2A2A" font="Segoe UI;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="solid" colors="#FFF7C2C0,#FFFBD9D7" />
+                  <border color="#FFEBB9B7" width="2" dash-style="Solid" />
+                  <label-connector color="#80000000" width="1" dash-style="Dash" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <drawing>
+              <text>Click
+</text>
+            </drawing>
+            <drawing-shape type="Rectangle" />
+          </item>
+          <item id="f22c62b8515a460a9a4c15f787163dce" cid="CMT001" type="comment" name="" style-class="" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:23:24">
+            <comment>ＯｕｔＰｕｔＯｎＯｆｆ（Ｃｏｍａｎｄ）
+</comment>
+          </item>
+          <item id="di116e5c7865d84ebe855b0d466523542c3728" cid="BTN003" type="ui-button" name="X001" style-class="Flat Light Green" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:03:05">
+            <style class="Flat Light Green" />
+            <button />
+          </item>
+          <item id="di04fecc7a41e34954aad68751ab389fb33728" cid="LBL003" type="ui-label" name="Name" style-class="" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:04:20" />
+          <item id="di7b0bd0116efd4583afba0ef8a86c3fa37968" cid="BTN004" type="ui-button" name="X002" style-class="Flat Light Green" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:03:05">
+            <style class="Flat Light Green" />
+            <button />
+          </item>
+          <item id="di10df81666ada4acaa04ed48910c4c0c07968" cid="LBL004" type="ui-label" name="Name" style-class="" owner="b181df929207468f89fe6dd267523262" change-tracking-state="added" creator="CDoZfQE0eoPT0twKUywpA6nGNB2IfQA5yd9dgyjV30/cduZy" creation-date="11/03/2025 13:04:20" />
+        </abstract-items>
+        <layer id="f6ff246d14db44bda2c63573649c8fc1" name="Default" visible="true" enabled="true" locked="false">
+          <item id="b181df929207468f89fe6dd267523262" iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:02:21" order-index="0" type="ui-window">
+            <layout ax="172" ay="228" awidth="384" aheight="440" x="172" y="228" width="384" height="440" rotation-center="29,-75.5" />
+          </item>
+          <item id="3656c876d9374087b6500e592785e6f9" iid="d02984a71b214fa799467f14613d4d31" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:03:05" order-index="1" type="ui-button">
+            <layout ax="196" ay="300" awidth="73" aheight="36" x="196" y="300" width="73" height="21" rotation-center="0,7.5" />
+          </item>
+          <item id="02545529a8684132bb85f42743c63a61" iid="d4d86fb2f9154941bcef5e86abd4b65c" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:04:20" order-index="2" type="ui-label">
+            <layout ax="288" ay="302.5" awidth="73" aheight="36" x="288" y="302.5" width="73" height="12.5" />
+          </item>
+          <item id="a7770c41cc6c4040a4def78c7c5b47fb" iid="af37b2aabb5d4329851227ae4cd99592" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:04:44" order-index="3" type="ui-splitter">
+            <layout ax="361" ay="260" awidth="0" aheight="396" x="361" y="260" width="0" height="396" rotation-center="16.5,-48" />
+          </item>
+          <item id="di1bb8ed76024c4e1c86ea49eb540fdcd92684" iid="513e37e6bd2a4c0ea64910b32b91aa63" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:03:05" order-index="1" type="ui-button">
+            <layout ax="372" ay="300" awidth="73" aheight="36" x="372" y="300" width="73" height="21" rotation-center="0,7.5" />
+          </item>
+          <item id="di29bbfb4984804646a9622ba72415625c2684" iid="fc03556970de468a9254f78305c9badf" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:04:20" order-index="2" type="ui-label">
+            <layout ax="464" ay="302.5" awidth="73" aheight="36" x="464" y="302.5" width="73" height="12.5" />
+          </item>
+          <item id="ee37fada4a944b93979d1b54dc2613bb" iid="4eff74b4163043559461b96336266e08" creation-date="11/03/2025 13:07:48" order-index="5" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="445" y1="318" x2="632" y2="260" start-border-pos="0.375" end-border-pos="0.625" start-local-pos="18" name-position="0,20">
+              <points>
+                <point x="445" y="318" />
+                <point x="632" y="260" />
+              </points>
+            </layout>
+            <relation from="di1bb8ed76024c4e1c86ea49eb540fdcd92684" from-iid="513e37e6bd2a4c0ea64910b32b91aa63" />
+          </item>
+          <item id="d1e12c6fe515486abd03fee4fb488baf" iid="028e2fbdced04a0cb511fa3cc1f064ea" creation-date="11/03/2025 13:20:22" order-index="6" type="entity">
+            <layout ax="639" ay="241.75" awidth="117" aheight="36.5" x="639" y="241.75" width="87" height="36.5" />
+          </item>
+          <item id="diab0fb33ef6b84f8aa1bbb2f95b4db2077084" iid="a749a3f102cc4ea08301f00746423727" creation-date="11/03/2025 13:20:37" order-index="8" type="comment-connector">
+            <layout line-style="oblique" lock-to-fields="false" auto-path="" x1="765" y1="338" x2="713" y2="278" start-border-pos="0.015041612598994" end-border-pos="0.590894128522302" name-position="0,20">
+              <points>
+                <point x="765" y="338" />
+                <point x="713" y="278" />
+              </points>
+            </layout>
+            <relation to="d1e12c6fe515486abd03fee4fb488baf" to-iid="028e2fbdced04a0cb511fa3cc1f064ea" />
+          </item>
+          <item id="f22c62b8515a460a9a4c15f787163dce" iid="046ccb2e23754db38300cdd338f82fa2" creation-date="11/03/2025 13:23:24" order-index="9" type="entity">
+            <layout ax="704" ay="348.5" awidth="157" aheight="144" x="704" y="348.5" width="157" height="144" rotation-center="-13.5,0" />
+          </item>
+          <item id="di116e5c7865d84ebe855b0d466523542c3728" iid="5dc4b07357e34d60bd00234f91c3e20d" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:03:05" order-index="1" type="ui-button">
+            <layout ax="196" ay="364" awidth="73" aheight="36" x="196" y="364" width="73" height="21" rotation-center="0,7.5" />
+          </item>
+          <item id="di04fecc7a41e34954aad68751ab389fb33728" iid="c02de843557c4f2fb14359f865ef7922" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:04:20" order-index="2" type="ui-label">
+            <layout ax="288" ay="366.5" awidth="73" aheight="36" x="288" y="366.5" width="73" height="12.5" />
+          </item>
+          <item id="di7b0bd0116efd4583afba0ef8a86c3fa37968" iid="978ddc56e36946f2892754960b8d7ce9" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:03:05" order-index="1" type="ui-button">
+            <layout ax="196" ay="438.75" awidth="73" aheight="36" x="196" y="438.75" width="73" height="21" rotation-center="0,7.5" />
+          </item>
+          <item id="di10df81666ada4acaa04ed48910c4c0c07968" iid="a13d6812f3df48af95a3af8f2e07fd97" container="b181df929207468f89fe6dd267523262" container-iid="431a7014a18244e9a1d92d5953426c16" creation-date="11/03/2025 13:04:20" order-index="2" type="ui-label">
+            <layout ax="288" ay="441.25" awidth="73" aheight="36" x="288" y="441.25" width="73" height="12.5" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+    <model id="p5369899a70a64229ad36bbfae35693f2_242170715" name="Sequence" namespace="" order-index="2" expanded="true">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>11/04/2025 07:36:21</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-sequence" id="p853edc1edbc5461d89952af00377049e_153221145" name="Plasma" order-index="1" expanded="true" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" view-location="264,-633" zoom="0.6">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>11/04/2025 07:36:40</creation-date>
+          <change-date>11/04/2025 09:02:30</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="d8081fade5de4891a60618a2b52d1943" cid="CMT002" type="comment" name="" style-class="" change-tracking-state="added" creation-date="11/04/2025 07:36:52">
+            <comment>[ AutoRun Step ]
+PMS_INIT
+PMS_CLOSE
+PMS_VACUUM
+PMS_GAS_ON
+PMS_VAC_STABLE
+PMS_RF_ON
+PMS_AUTO_COOL
+PMS_ABORT
+PMS_OPEN
+PMS_AGING_CHECK
+PMS_ERROR
+PMS_END
+PMS_LEAK_CHECK
+</comment>
+          </item>
+          <item id="8bb41696422c4d7ea50c8039858d683b" cid="LL001" type="lifeline" name="Lifeline1" style-class="" change-tracking-state="added" creation-date="11/04/2025 07:48:52">
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="00850e26479c407b9231f58a79c53893" cid="LL002" type="lifeline" name="CHECK_CLEAN_DONE" style-class="" change-tracking-state="added" creation-date="11/04/2025 08:43:06">
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="3aa0753486604a01a40cf88154f96fc5" cid="CMT003" type="comment" name="" style-class="" change-tracking-state="added" creation-date="11/04/2025 08:43:25">
+            <comment>Init Run Step
+1) CHECK_CLEAN_DONE
+
+2)PURGE ON
+
+3)CHAMBER OPEN
+
+4) CHECK_RF_MODE
+
+ 5) END </comment>
+          </item>
+          <item id="di5ab8cb6ef9cf4742954095bd5f3113657086" cid="LL003" type="lifeline" name="PURGE ON" style-class="" change-tracking-state="added" creation-date="11/04/2025 08:43:06" visibility="undefined">
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="dif3119fe5a5d94af19091a56f40b7d15b5285" cid="LL004" type="lifeline" name="CHAMBER OPEN" style-class="" change-tracking-state="added" creation-date="11/04/2025 08:43:06" visibility="undefined">
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="dia29aa1a79d1445958decaf0577e7da415034" cid="LL005" type="lifeline" name="CHECK_RF_MODE" style-class="" change-tracking-state="added" creation-date="11/04/2025 08:43:06" visibility="undefined">
+            <lifeline classifier-name="" selector="" is-multi-object="false" />
+          </item>
+          <item id="05be47b8744248b69ac8c2fee57a1725" cid="ELEM005" type="drawing-shape" name="SimpleShape3" style-class="" change-tracking-state="added" creation-date="11/04/2025 09:02:30">
+            <style style-name="Custom" shadow-type="smooth" shadow-offset="1,1" shadow-visible="true" shadow-color="#32000000" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+              <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+              <background type="forward-diagonal" colors="#FFFFFFFF,#FFEBEBEB" />
+              <border color="#FF000000" width="1" dash-style="Solid" />
+              <label-connector color="#80000000" width="1" dash-style="Dash" />
+              <alternate-styles>
+                <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="1,1" shadow-color="#32000000" gloss-effect="rounded" wrap-name-text="true" wrap-other-text="true" padding="1" margin="1" glow-color="#FFFFFFFF" accuracy="0.9">
+                  <text-style type="name" use-defaults="false" color="#FF000000" font="Verdana;10;B" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="part-header" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="text" use-defaults="false" color="#FF000000" font="Verdana;9;" horizontal-alignment="left" vertical-alignment="center" shadow="false" />
+                  <text-style type="tagged-value" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <text-style type="stereotype" use-defaults="false" color="#FF1E1E1E" font="Verdana;9;I" horizontal-alignment="center" vertical-alignment="center" shadow="false" />
+                  <background type="vertical-linear" colors="#FF1E90FF,#FF87CEFA" />
+                  <border color="#FF00008B" width="1" dash-style="Solid" />
+                  <label-connector color="#FF000000" width="1" dash-style="Solid" />
+                </alternate-style>
+              </alternate-styles>
+            </style>
+            <drawing>
+              <text>CHAMBER OPEN</text>
+            </drawing>
+            <drawing-shape type="Diamond" />
+          </item>
+        </abstract-items>
+        <layer id="0abf77fb735c45ea8e0748423d32e0ee" name="Default" visible="true" enabled="true" locked="false">
+          <item id="d8081fade5de4891a60618a2b52d1943" iid="c4988c9a1baa4139b1952aafa1576a51" creation-date="11/04/2025 07:36:52" order-index="0" type="entity">
+            <layout ax="93" ay="288" awidth="216" aheight="290" x="93" y="288" width="216" height="290" rotation-center="-20.5,-40" />
+          </item>
+          <item id="8bb41696422c4d7ea50c8039858d683b" iid="d281d3dcab6a4716a48963333fc6f81d" creation-date="11/04/2025 07:48:52" order-index="1" type="lifeline">
+            <layout ax="568" ay="326" awidth="108" aheight="236" x="568" y="326" width="108" height="236" rotation-center="0,-82.5" container-layout="simple" />
+          </item>
+          <item id="00850e26479c407b9231f58a79c53893" iid="c510dc36609748fc9e41e10f0ee13311" creation-date="11/04/2025 08:43:06" order-index="2" type="lifeline">
+            <layout ax="488" ay="-795" awidth="176" aheight="666" x="488" y="-795" width="176" height="666" rotation-center="-21.5,-168.5" container-layout="simple" />
+          </item>
+          <item id="3aa0753486604a01a40cf88154f96fc5" iid="e2eeef8071d445db9787b5b6bbc82761" creation-date="11/04/2025 08:43:25" order-index="3" type="entity">
+            <layout ax="59" ay="-797" awidth="176" aheight="179" x="59" y="-797" width="176" height="174" />
+          </item>
+          <item id="di5ab8cb6ef9cf4742954095bd5f3113657086" iid="2b50ed47ed8d4e4e82d82f23c8f3e879" creation-date="11/04/2025 08:43:06" order-index="2" type="lifeline">
+            <layout ax="1152" ay="-795" awidth="176" aheight="666" x="1152" y="-795" width="176" height="666" rotation-center="-21.5,-168.5" container-layout="simple" />
+          </item>
+          <item id="dif3119fe5a5d94af19091a56f40b7d15b5285" iid="5c77c3d8fff64679bf3c8c63ed83be74" creation-date="11/04/2025 08:43:06" order-index="2" type="lifeline">
+            <layout ax="1497" ay="-795" awidth="176" aheight="666" x="1497" y="-795" width="176" height="666" rotation-center="-21.5,-168.5" container-layout="simple" />
+          </item>
+          <item id="dia29aa1a79d1445958decaf0577e7da415034" iid="7db4000a4cc84f0cb15903e10c86c666" creation-date="11/04/2025 08:43:06" order-index="2" type="lifeline">
+            <layout ax="1818" ay="-795" awidth="176" aheight="666" x="1818" y="-795" width="176" height="666" rotation-center="-21.5,-168.5" container-layout="simple" />
+          </item>
+          <item id="05be47b8744248b69ac8c2fee57a1725" iid="0ae4261d07cc418aa4a80500af99fc9b" creation-date="11/04/2025 09:02:30" order-index="4" type="entity">
+            <layout ax="488" ay="-591" awidth="176" aheight="152" x="488" y="-591" width="176" height="152" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

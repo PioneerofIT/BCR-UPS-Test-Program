@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Automation;
 
 namespace BCR_Reader_Pro.Service
 {
@@ -13,9 +14,13 @@ namespace BCR_Reader_Pro.Service
         private ManualResetEvent? _pauseEvent;
         protected bool _isRunning;
         protected int _step;
+        protected int _initStep;
         protected int _idx;
         protected int _createDelay;
-        
+        protected bool _isIntialDone;
+        protected bool _ready;
+        protected bool _complete;
+
 
         public BaseThread(int idx, int delay )
         {
@@ -23,6 +28,16 @@ namespace BCR_Reader_Pro.Service
             _createDelay = delay;
             Initialize();
             StartThread();
+        }
+
+        public void SendError(int errorcode)
+        {
+
+        }
+
+        public bool IsPass()
+        {
+            return (!_isRunning);
         }
 
         protected void Initialize()
@@ -120,7 +135,15 @@ namespace BCR_Reader_Pro.Service
 
         private int RunProc()
         {
-            AutoRun();
+            if (_isIntialDone)
+            {
+                AutoRun();
+            }
+            else
+            {
+                InitRun();
+            }
+              
             return 0;
         }
 

@@ -13,6 +13,7 @@ namespace BCR_Reader_Pro.Service
         List<BaseThread> _threads = new();
 
         private uPmRun _PmThread;
+        private RfComm _RfCommThread;
         public SequenceManager()
         {
             _threads.Clear();
@@ -23,6 +24,9 @@ namespace BCR_Reader_Pro.Service
         {
             _PmThread = new uPmRun(0, 200);
             _threads.Add( _PmThread );
+
+            _RfCommThread = new RfComm(1, 200);
+            _threads.Add(_RfCommThread);
         }
 
         public void AllStopSeq()
